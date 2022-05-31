@@ -1,0 +1,38 @@
+.content-left h1, .content-right h1 {
+    line-height: 40px;
+    font-size: 36px;
+    padding-bottom: 30px;
+    color: var(--accent1);
+}
+
+.content-left h3, .content-right h3 {
+    line-height: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: var(--contrast);
+}
+
+.content-left h4, .content-right h4 {
+    font-size: 16px;
+    padding: 6px 0;
+    color: var(--seccontrast);
+    font-weight: 600px;
+}
+
+.content-left p, .content-right p {
+    line-height: 28px;
+} 
+
+#home-content h1 {
+    font-size: 48px; 
+    line-height: 24px;
+    text-align: center;
+}
+
+.content-left .con-text {
+    text-align: left;
+}
+
+.content-right .con-text {
+    text-align: right;
+}

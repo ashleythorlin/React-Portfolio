@@ -1,0 +1,43 @@
+section {
+    background: var(--section);
+    border-radius: 15px;
+    margin: 150px 240px; 
+    box-shadow: 5px 5px 10px 3px #121212;
+}
+
+#resume-content{
+    padding: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+section .content-right {
+    flex-direction: row-reverse;
+}
+
+
+/* section text formatting */
+#resume-content h1 {
+    line-height: 40px;
+    font-size: 36px;
+    padding-bottom: 30px;
+    color: var(--accent1);
+}
+
+#resume-content .con-text {
+    text-align: center;
+}
+
+/* resume embed */
+#resume-content .con-text {
+    width: 100%;
+}
+
+#resume-content iframe {
+    margin: 0 200px auto;
+    margin-bottom: 60px;
+    width: 840px;
+    min-height: 990px;
+    border: 1.5px solid var(--background);
+    align-self: center;
+}

@@ -16,9 +16,6 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" 
-          element={<Navigate to="/about" />}
-        />
         <Route path="/React-Portfolio" 
           element={<Home />}
         />

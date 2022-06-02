@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.fb5b047d.css",
+    "main.js": "/React-Portfolio/static/js/main.29c84d4e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/working_late.svg": "/React-Portfolio/static/media/working_late.17695ba7949847d4289948d5fcf4e277.svg",
+    "static/media/pair_programming.svg": "/React-Portfolio/static/media/pair_programming.b7b7b5bb70cd9e21f8bc2875125ab7a8.svg",
+    "static/media/dreamer.svg": "/React-Portfolio/static/media/dreamer.24dd79eddf4b309d2290f1f97e13c203.svg",
+    "static/media/designer_girl.svg": "/React-Portfolio/static/media/designer_girl.633c27243fef2233dc58012cf94589fc.svg",
+    "static/media/proud_coder.svg": "/React-Portfolio/static/media/proud_coder.42bd4117add3e53755666bc1acf7dd25.svg",
+    "static/media/knowledge.svg": "/React-Portfolio/static/media/knowledge.7e561c0ad546b9aa22e7fff881ba755a.svg",
+    "static/media/social_ideas.svg": "/React-Portfolio/static/media/social_ideas.736604d353d01eccb01a3daf81abe45d.svg",
+    "static/media/education.svg": "/React-Portfolio/static/media/education.aae43970395fbec5e504dce5fda7c577.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.fb5b047d.css.map": "/React-Portfolio/static/css/main.fb5b047d.css.map",
+    "main.29c84d4e.js.map": "/React-Portfolio/static/js/main.29c84d4e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb5b047d.css",
+    "static/js/main.29c84d4e.js"
+  ]
+}

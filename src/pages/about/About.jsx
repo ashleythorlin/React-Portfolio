@@ -3,6 +3,7 @@ import "./about.css";
 import aboutimg from "../../assets/images/dark/working_late.svg";
 import passionimg from "../../assets/images/dark/dreamer.svg";
 import contactimg from "../../assets/images/dark/social_ideas.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function About() {
   return (
@@ -20,7 +21,7 @@ export default function About() {
           <img
             className="con-img"
             src={aboutimg}
-            alt="shows a woman working on her laptop at night"
+            alt="shows a person working on their laptop at night"
             width="500"
             height="500"
           />
@@ -45,7 +46,7 @@ export default function About() {
           <img
             className="con-img"
             src={passionimg}
-            alt="shows a woman sitting outdoors"
+            alt="shows a person sitting outdoors"
             width="500"
             height="500"
           />
@@ -61,21 +62,21 @@ export default function About() {
                 href="https://www.instagram.com/ashley_thorlin/"
                 target="_blank"
               >
-                <i className="fa fa-instagram fa-2x"></i>
+                Instagram
               </a>
               <a
                 className="fa-icon-link"
                 href="https://www.linkedin.com/in/ashley-thorlin"
                 target="_blank"
               >
-                <i className="fa fa-linkedin fa-2x"></i>
+                LinkedIn
               </a>
               <a
                 className="fa-icon-link"
                 href="https://www.github.com/ashleythorlin"
                 target="_blank"
               >
-                <i className="fa fa-github fa-2x"></i>
+                Github
               </a>
             </div>
           </div>

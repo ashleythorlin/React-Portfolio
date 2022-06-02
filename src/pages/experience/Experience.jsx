@@ -1,6 +1,8 @@
 import React from "react";
 import "./experience.css";
-import experienceimg from "../../assets/images/dark/designer_girl.svg";
+import tutorimg from "../../assets/images/dark/online_learning.svg";
+import mentorimg from "../../assets/images/dark/living.svg";
+import acmwimg from "../../assets/images/dark/team_collaboration.svg";
 
 export default function Experience() {
   return (
@@ -30,8 +32,8 @@ export default function Experience() {
           </div>
           <img
             className="con-img"
-            src={experienceimg}
-            alt="shows a woman sitting at her desk, working at her computer"
+            src={tutorimg}
+            alt="shows a person sitting at their desk, video chatting with someone on their laptop"
             width="500"
             height="500"
           />
@@ -65,8 +67,8 @@ export default function Experience() {
           </div>
           <img
             className="con-img"
-            src={experienceimg}
-            alt="shows a woman sitting at her desk, working at her computer"
+            src={mentorimg}
+            alt="shows three people holding hands"
             width="500"
             height="500"
           />
@@ -76,31 +78,32 @@ export default function Experience() {
       <section id="experience-content">
         <div className="content-right">
           <div className="con-text">
-            <h3>Treasurer for CSUF ACM-W</h3>
+            <h3>CSUF ACM-W Board</h3>
             <h4>January 2022 to Present</h4>
             <p>
               The Association of Computing Machinery - Women at CSU Fullerton is
               a club supporting women studying Engineering and Computer Science.
-              As Treasurer for Spring 2022, I collaborated with the board to
-              plan and organize biweekly meetings and events, create flyers to
-              advertise the events, and run social, technical, and motivational
-              workshops. One of the events I co-led was a Git Workshop, which
-              went over Git installation, how distributed version control works,
-              and basic git commands.
+              As <b>Treasurer</b> for Spring 2022, I collaborated with the board
+              to plan and organize biweekly meetings and events, create flyers
+              to advertise the events, and run social, technical, and
+              motivational workshops. One of the events I co-led was a Git
+              Workshop, which went over Git installation, how distributed
+              version control works, and basic git commands.
             </p>
             <br />
             <p>
               This upcoming school year (2022-2023) I will be serving as the
-              Vice President and Webmaster of ACM-W. I will work to increase the
-              attendance of club members at meetings and plan more technical
-              workshops to prepare students for their careers, in order to ease
-              their anxieties about the transition from university to industry.
+              <b> Vice President</b> and <b>Webmaster</b> of ACM-W. I will work
+              to increase the attendance of club members at meetings and plan
+              more technical workshops to prepare students for their careers, in
+              order to ease their anxieties about the transition from university
+              to industry.
             </p>
           </div>
           <img
             className="con-img"
-            src={experienceimg}
-            alt="shows a woman sitting at her desk, working at her computer"
+            src={acmwimg}
+            alt="shows three people colaborating at a whiteboard"
             width="500"
             height="500"
           />

@@ -1,6 +1,8 @@
 import React from "react";
 import "./projects.css";
-import projectsimg from "../../assets/images/dark/pair_programming.svg";
+import blogimg from "../../assets/images/dark/pair_programming.svg";
+import musicplayerimg from "../../assets/images/dark/audio_player.svg";
+import databaseimg from "../../assets/images/dark/server.svg";
 
 export default function Projects() {
   return (
@@ -36,8 +38,8 @@ export default function Projects() {
           </div>
           <img
             className="con-img"
-            src={projectsimg}
-            alt="shows a woman programming with her colleague"
+            src={musicplayerimg}
+            alt="shows a person listening to music on a giant phone"
             width="500"
             height="500"
           />
@@ -71,8 +73,8 @@ export default function Projects() {
           </div>
           <img
             className="con-img"
-            src={projectsimg}
-            alt="shows a woman programming with her colleague"
+            src={blogimg}
+            alt="shows a person programming with their colleague"
             width="500"
             height="500"
           />
@@ -107,8 +109,8 @@ export default function Projects() {
           </div>
           <img
             className="con-img"
-            src={projectsimg}
-            alt="shows a woman programming with her colleague"
+            src={databaseimg}
+            alt="shows a person looking at a laptop on top of drawers"
             width="500"
             height="500"
           />

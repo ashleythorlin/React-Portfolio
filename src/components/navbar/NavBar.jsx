@@ -15,25 +15,25 @@ export default function NavBar() {
     <div className="nav-bar">
       <h1 id="name">ashley thorlin</h1>
       <ul id="nav-links">
-        <Link className="nav-link" to="/home">
+        <Link className="nav-link" to="/React-Portfolio">
           <FontAwesomeIcon icon={faHome} /> home
         </Link>
-        <Link className="nav-link" to="/about">
+        <Link className="nav-link" to="/React-Portfolio/about">
           <FontAwesomeIcon icon={faUser} /> about
         </Link>
-        <Link className="nav-link" to="/education">
+        <Link className="nav-link" to="/React-Portfolio/education">
           <FontAwesomeIcon icon={faGraduationCap} /> education
         </Link>
-        <Link className="nav-link" to="/experience">
+        <Link className="nav-link" to="/React-Portfolio/experience">
           <FontAwesomeIcon icon={faBriefcase} /> experience
         </Link>
-        <Link className="nav-link" to="/projects">
+        <Link className="nav-link" to="/React-Portfolio/projects">
           <FontAwesomeIcon icon={faCode} /> projects
         </Link>
-        <Link className="nav-link" to="/current">
+        <Link className="nav-link" to="/React-Portfolio/current">
           <FontAwesomeIcon icon={faDesktop} /> current
         </Link>
-        <Link className="nav-link" to="/resume">
+        <Link className="nav-link" to="/React-Portfolio/resume">
           <FontAwesomeIcon icon={faFile} /> resume
         </Link>
       </ul>

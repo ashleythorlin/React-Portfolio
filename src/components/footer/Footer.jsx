@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <footer>
         <p>Copyright &copy; 2022 Ashley Thorlin</p>
-        <p>Updated 05/09/2022</p>
+        <p>Updated 06/02/2022</p>
     </footer>
   );
 }

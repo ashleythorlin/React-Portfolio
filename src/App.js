@@ -19,25 +19,25 @@ function App() {
         <Route path="/" 
           element={<Navigate to="/about" />}
         />
-        <Route path="/home" 
+        <Route path="/React-Portfolio" 
           element={<Home />}
         />
-        <Route path="/about" 
+        <Route path="/React-Portfolio/about" 
           element={<About />}
         />
-        <Route path="/education" 
+        <Route path="/React-Portfolio/education" 
           element={<Education />}
         />
-        <Route path="/Experience" 
+        <Route path="/React-Portfolio/Experience" 
           element={<Experience />}
         />
-        <Route path="/projects" 
+        <Route path="/React-Portfolio/projects" 
           element={<Projects />}
         />
-        <Route path="/current" 
+        <Route path="/React-Portfolio/current" 
           element={<Current />}
         />
-        <Route path="/resume" 
+        <Route path="/React-Portfolio/resume" 
           element={<Resume />}
         />
       </Routes>

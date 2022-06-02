@@ -49,3 +49,13 @@ body {
 .project-link:hover {
   background-color: #146161;
 }
+
+.weblink {
+  color: var(--contrast);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.weblink:hover {
+  color: var(--accent1);
+}
